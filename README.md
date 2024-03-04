@@ -27,3 +27,24 @@ First verify that the cities you find from the api are already existing to the e
 <code>npm init -y</code>
 
 <code>ts-node index.ts</code>
+
+---
+
+<h3>Conventions</h3>
+
+WGS84 aka World Geodetic System 84
+
+GeoJSON aka format for encoding a variety of geographic data structures
+
+```javascript
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [longitude, latitude]
+    },
+    "properties": {
+    "name": "Example Point"
+    }
+}
+```
