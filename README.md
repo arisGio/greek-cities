@@ -48,3 +48,7 @@ GeoJSON aka format for encoding a variety of geographic data structures
     }
 }
 ```
+
+GIS aka geographic information systems
+
+Geospatial or geodata aka data that includes information related to locations on the Earth's surface.
